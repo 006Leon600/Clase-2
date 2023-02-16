@@ -1,18 +1,13 @@
 let disporam=function(freemem) {
-    let bitsGb = 0.000000000125*freemem;
-    let decimales=bitsGb.toFixed(7);
-    return parseFloat(decimales);
+    let ByteGb = 1e-9*freemem;
+    return ByteGb;
 };
-
 let totalram=totalmem=>{
-    let bitsGb = 0.000000000125*totalmem;
-    let decimales=bitsGb.toFixed(8);
-    return parseFloat(decimales);
+    let ByteGb = 1e-9*totalmem;
+    return ByteGb;
 };
-
 const conversion={
     disporam,
     totalram
 };
-
 module.exports=conversion;
