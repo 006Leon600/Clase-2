@@ -5,4 +5,4 @@ ramtot:os.totalmem(),
 SO:os.type(),
 frecuencia:os.cpus()
 }
-module.exports = variablesOs;
+module.exports = variablesOs; 
