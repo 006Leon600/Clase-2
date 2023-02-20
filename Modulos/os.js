@@ -1,8 +1,8 @@
 const os=require('os');
-const variablesOs={
-ramdisp:os.freemem(),
-ramtot:os.totalmem(),
+const varOs={
+ramd:os.freemem(),
+ramt:os.totalmem(),
 SO:os.type(),
 frecuencia:os.cpus()
 }
-module.exports = variablesOs; 
+module.exports = varOs; 
