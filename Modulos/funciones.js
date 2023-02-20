@@ -1,13 +1,13 @@
-let disporam=function(freemem) {
+let dispor = function(freemem) {
     let ByteGb = 1e-9*freemem;
     return ByteGb;
 };
-let totalram=totalmem=>{
-    let ByteGb = 1e-9*totalmem;
+let totalr = totalm = > {
+    let ByteGb = 1e-9*totalm;
     return ByteGb;
 };
 const conversion={
-    disporam,
-    totalram
+    dispor,
+    totalr
 };
 module.exports=conversion;
